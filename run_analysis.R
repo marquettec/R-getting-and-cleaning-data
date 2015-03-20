@@ -1,6 +1,6 @@
 
 # install.packages()
-library('dplyr', 'data.table')
+# library('dplyr', 'data.table')
 
 # 0. Getting data
 message("Getting data, creating initial data frame (takes several minutes) ...") 
@@ -51,13 +51,5 @@ source('scripts/generate-tidydata.R')
 nrow(tidydata)
 ncol(tidydata)
 message("Tidydata generated : Please check './tidydata.txt' file")
-
-# @todo Test, Check process vs Assignment directives
-# @todo Comment code
-# @todo Test, repeat, test
-# @todo README.md
-# @todo CodeBook.md
-# @todo Check notation rules
-# @todo Commit to GIT
 
 

@@ -1,4 +1,5 @@
 labelizedDataset <- meanAndStd
+# Preparing column labels
 labelizedDatasetColnames <- c('subject', 'activity', 
                               'tBodyAccMeanX', 'tBodyAccMeanY', 'tBodyAccMeanZ', 'tBodyAccStdX', 'tBodyAccStdY', 'tBodyAccStdZ',
                               'tGravityAccMeanX', 'tGravityAccMeanY', 'tGravityAccMeanZ', 'tGravityAccStdX', 'tGravityAccStdY', 'tGravityAccStdZ',
@@ -19,5 +20,6 @@ labelizedDatasetColnames <- c('subject', 'activity',
                               'fBodyBodyGyroJerkMagMean', 'fBodyBodyGyroJerkMagStd'
 )
 #length(labelizedDatasetColnames)
+# Labelizing
 colnames(labelizedDataset) <- labelizedDatasetColnames
 

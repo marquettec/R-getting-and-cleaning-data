@@ -30,8 +30,9 @@ Directory structure:
 ## Main script
 
 To Run project data analysis, please run the following script in R or RStudio
-
-    run_analysis.R
+    # Running script from R rather than RStudio might speed up the read.fwf() step...
+    # setwd('PROJECT_RETRIEVED_FROM_GIT_PATH')
+    source('run_analysis.R')
 
 ## Transformation scripts
 
