@@ -1,4 +1,4 @@
-# Getting and Cleaning Data
+# Getting and Cleaning Data with R
 
 This project is part of Coursera student assignment.
 
@@ -34,6 +34,7 @@ Directory structure:
 ## Main script
 
 To Run project data analysis, please run the following script in R or RStudio
+
     # Running script from R rather than RStudio might speed up the read.fwf() step...
     # setwd('PROJECT_RETRIEVED_FROM_GIT_PATH')
     source('run_analysis.R')
