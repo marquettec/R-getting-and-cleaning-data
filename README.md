@@ -1,5 +1,9 @@
 # Getting and Cleaning Data
 
+This project is part of Coursera student assignment.
+
+It consists in getting a large dataset concerning 'Human Activity Recognition Using Smartphones', cleaning, and transforming it.
+
 ## Directory organization
 
 The project is organized as follows:
